@@ -1,0 +1,95 @@
+ /* Created by Tim Van den Enden on 22/02/2017.
+ 	Copyright © 2017 Tim Van den Enden. All rights reserved. */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #3D3B35;
+	font-family: arial;
+	margin: 0px auto;
+	width: 600px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+header {
+	font-family: 'Audiowide', cursive;
+	color: #fff;
+	padding-left: 10px;
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+ 
+}
+
+h3 {
+	font-size: 20px;
+    margin: 10px 0px;
+}
+
+ul {
+	display: flex;
+    width: 600px;
+}
+
+nav {
+	background: #c91f08;
+	width: 600px;
+}
+
+li {
+	width: 95px;
+	list-style:none;
+	padding: 5px 10px;
+}
+
+nav li button {
+	background: #c91f08;
+	border: none;
+	color: #fff;
+	outline: none;
+}
+
+main {
+	background: #fff;
+	width: 580px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+footer {
+	text-align: center;
+    padding: 10px;
+    color: #fff;
+    width: 580px;
+    font-size: 12px;
+	background: #535143;
+}
+
+div.block {
+	display: flex;
+	width: 580px;
+}
+
+span {
+	display: block;
+	margin-bottom: 15px;
+}
+
+input {
+	float: right;
+	width: 200px;
+	margin-right: 55px;
+}
+
+button.submit {
+	float: right;
+	width: 200px;
+	margin-right: 55px;
+	display: block;
+}
